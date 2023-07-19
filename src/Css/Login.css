@@ -1,0 +1,42 @@
+.loginbt,.signupbtn{
+    margin: 10px!important;
+  }
+  
+  .registercont{
+    display: flex;justify-content: center;align-items: center;height: min-content; 
+    margin-top: 10px;
+   
+  }
+  .welcome{
+    font-size: 50px; font-weight: 500; font-family: serif;
+  }
+  .inpbox{
+    margin: 10px; width: 400px;
+  }
+  .form{
+    display: flex;align-items: center;flex-direction: column; background-color:white;border-radius: 20px; padding-bottom: 10px;margin-bottom: 10px;
+  }
+  .loginbtn{
+    width: 400px;margin: 20px!important;
+  }
+  .error{
+    color: red;
+  }
+  @media (width<=450px){
+
+    .welcome{
+        font-size: 20px; font-weight: 500;
+    }
+    .inpbox{
+        margin: 10px; width: 300px;
+    }
+    .form{
+        border-radius: 15px;
+    }
+    .loginbtn{
+        width: 300px;margin: 15px!important;
+    }
+    .error{
+        color: red;
+    }
+  }

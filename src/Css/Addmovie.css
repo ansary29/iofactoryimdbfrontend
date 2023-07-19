@@ -1,0 +1,30 @@
+.plot{
+    width: 100%;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 100px;
+    overflow-x: hidden;
+}
+.tags{
+    display: flex;flex-wrap: wrap;margin: 0px;
+}
+.tag{
+    padding: 5px;background-color: aqua;margin: 5px;border-radius: 10px;border: 1px solid black;
+    display: flex;justify-content: center;align-items: center;
+}
+.sainput{
+    height: 35px;
+}
+.bi-x-circle{
+    margin-left: 5px;
+}
+.inputbox{
+    display: flex;flex-direction: column;
+}
+.gender{
+    flex-direction: row;
+}
+.minput{
+    margin-left: 5px;
+}
